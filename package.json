@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.4.0",
+    "@earendil-works/pi-ai": "1.4.0",
+    "typebox": "1.3.27"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "name": "hackschool-study-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "pi",
+    "typecheck": "tsc --noEmit --module nodenext --moduleResolution nodenext --target es2022 --skipLibCheck .pi/extensions/study-tools.ts"
+  },
+  "overrides": {
+    "undici": "8.12.2"
+  }
+}
